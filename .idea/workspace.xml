@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5feb7f-71ae-476f-bc94-7e9c3a227003" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/MoreBasicThreads.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/CachedThreadPool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
@@ -12,6 +13,7 @@
     <file path="/Dummy.txt" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587834721" ignored="false" />
     <file path="/BasicThreads.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587971953" ignored="false" />
     <file path="/MoreBasicThreads.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377588122763" ignored="false" />
+    <file path="/CachedThreadPool.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377588650200" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +101,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreBasicThreads.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MoreBasicThreads.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/MoreBasicThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="351" selection-end="351" vertical-scroll-proportion="0.5565371">
+            <state line="15" column="31" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CachedThreadPool.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/CachedThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="30" selection-start="158" selection-end="158" vertical-scroll-proportion="0.23818526">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/MainThread.java" />
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/BasicThreads.java" />
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/MoreBasicThreads.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/CachedThreadPool.java" />
       </list>
     </option>
   </component>
@@ -219,7 +233,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.MoreBasicThreads">
+  <component name="RunManager" selected="Application.CachedThreadPool">
     <configuration default="false" name="MainThread" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -272,6 +286,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.diguage.thinking.concurrency.MoreBasicThreads" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CachedThreadPool" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.diguage.thinking.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.diguage.thinking.concurrency.CachedThreadPool" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -377,16 +413,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.MainThread" />
       <item index="1" class="java.lang.String" itemvalue="Application.BasicThreads" />
       <item index="2" class="java.lang.String" itemvalue="Application.MoreBasicThreads" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CachedThreadPool" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.MoreBasicThreads" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BasicThreads" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainThread" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.CachedThreadPool" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MoreBasicThreads" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BasicThreads" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainThread" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -523,8 +561,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/MoreBasicThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="351" selection-end="351" vertical-scroll-proportion="0.5565371">
+        <state line="15" column="31" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/CachedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="158" selection-end="158" vertical-scroll-proportion="0.23818526">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

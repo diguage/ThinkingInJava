@@ -5,6 +5,4 @@
 *.war
 *.ear
 
-/out/*
-
-/.idea/*
+*.xml
