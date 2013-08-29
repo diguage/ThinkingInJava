@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.concurrent.*;
 
 /**
+ * Callable接口示例
+ * <p/>
  * User: D瓜哥，http://www.diguage.com/
  * Date: 13-8-27
  * Time: 下午4:57
