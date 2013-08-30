@@ -1,6 +1,8 @@
 package com.diguage.thinking.concurrency;
 
 /**
+ * 在死循环的情况下，演示多线程的优势
+ * <p/>
  * User: D瓜哥，http://www.diguage.com/
  * Date: 13-8-30
  * Time: 下午4:05
