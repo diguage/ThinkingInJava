@@ -3,6 +3,8 @@ package com.diguage.thinking.concurrency;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 演示后台线程衍生出来的线程还是后台线程
+ * <p/>
  * User: D瓜哥，http://www.diguage.com/
  * Date: 13-8-30
  * Time: 上午11:41
