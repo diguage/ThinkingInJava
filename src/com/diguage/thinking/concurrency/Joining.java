@@ -1,6 +1,9 @@
 package com.diguage.thinking.concurrency;
 
 /**
+ * 演示join()方法的使用：如果某个线程在另外一个线程t上调用t.join()，
+ * 此线程将会被挂起，直到目标线程t结束才恢复（及t.isAlive()返回为假）。
+ * <p/>
  * User: D瓜哥，http://www.diguage.com/
  * Date: 13-8-30
  * Time: 下午2:38
