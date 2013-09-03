@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5feb7f-71ae-476f-bc94-7e9c3a227003" name="Default" comment="演示线程异常的捕获。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/AtomicityTest.java" />
+    <list default="true" id="4d5feb7f-71ae-476f-bc94-7e9c3a227003" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/SerialNumberGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/LiftOff.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587737855" ignored="false" />
     <file path="/MainThread.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587788819" ignored="false" />
-    <file path="/Dummy.txt" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378194299824" ignored="false" />
+    <file path="/Dummy.txt" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378194794807" ignored="false" />
     <file path="/BasicThreads.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587971953" ignored="false" />
     <file path="/MoreBasicThreads.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377588122763" ignored="false" />
     <file path="/CachedThreadPool.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377588650200" ignored="false" />
@@ -46,6 +46,7 @@
     <file path="/AttemptLocking.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378190795172" ignored="false" />
     <file path="/Atomicity.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378194179168" ignored="false" />
     <file path="/AtomicityTest.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378194782454" ignored="false" />
+    <file path="/SerialNumberGenerator.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378196014696" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +127,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtomicityTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AtomicityTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/AtomicityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="135" selection-end="140" vertical-scroll-proportion="0.36842105">
+            <state line="15" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialNumberGenerator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/SerialNumberGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="29" selection-start="50" selection-end="76" vertical-scroll-proportion="0.11130742">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/Jlining.java" />
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/Joining.java" />
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/RespinsiveUI.java" />
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/ResponsiveUI.java" />
@@ -172,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/AttemptLocking.java" />
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/Atomicity.java" />
         <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/AtomicityTest.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/thinking/concurrency/SerialNumberGenerator.java" />
       </list>
     </option>
   </component>
@@ -582,7 +592,11 @@
       <created>1378194302917</created>
       <updated>1378194302917</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="不完整同步">
+      <created>1378194801078</created>
+      <updated>1378194801078</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -608,8 +622,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.62352943" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3764706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3764706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -659,7 +673,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="根据class文件结构，分析“原子性”操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="不完整同步" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -688,6 +702,7 @@
     <MESSAGE value="演示Lock对象代替synchronized关键字" />
     <MESSAGE value="演示Lock的超时功能" />
     <MESSAGE value="根据class文件结构，分析“原子性”操作" />
+    <MESSAGE value="不完整同步" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -697,13 +712,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/ThreadVariations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="7" selection-start="3919" selection-end="3919" vertical-scroll-proportion="0.17844523">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/Joining.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="24" selection-start="398" selection-end="398" vertical-scroll-proportion="0.44522968">
@@ -816,10 +824,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/AtomicityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="135" selection-end="140" vertical-scroll-proportion="0.36842105">
+        <state line="15" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/thinking/concurrency/SerialNumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="50" selection-end="76" vertical-scroll-proportion="0.11130742">
+          <folding />
         </state>
       </provider>
     </entry>
