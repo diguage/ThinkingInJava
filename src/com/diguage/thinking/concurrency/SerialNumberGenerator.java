@@ -7,11 +7,10 @@ package com.diguage.thinking.concurrency;
  * Date: 13-9-3
  * Time: 下午3:56
  */
-public class SerialNumberGenerator extends IntGenerator {
+public class SerialNumberGenerator{
     private static volatile int serialNumber = 0;
 
-    @Override
-    public int next() {
+    public static int nextSerialNumber() {
         return serialNumber++;  // mot thread-safe
     }
 }
