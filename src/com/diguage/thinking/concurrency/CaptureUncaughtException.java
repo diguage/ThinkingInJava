@@ -5,6 +5,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
 /**
+ * 多线程下的异常处理
+ * <p/>
  * User: D瓜哥，http://www.diguage.com/
  * Date: 13-9-3
  * Time: 上午10:15
