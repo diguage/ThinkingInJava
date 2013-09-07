@@ -2,50 +2,45 @@ package com.diguage.books.thinking.initialization;
 
 //: initialization/Mugs.java
 // Java "Instance Initialization."
-import static net.mindview.util.Print.*;
 
-class Mug
-{
-	Mug(int marker)
-	{
-		print("Mug(" + marker + ")");
-	}
+import static com.diguage.books.thinking.util.Print.*;
 
-	void f(int marker)
-	{
-		print("f(" + marker + ")");
-	}
+class Mug {
+    Mug(int marker) {
+        print("Mug(" + marker + ")");
+    }
+
+    void f(int marker) {
+        print("f(" + marker + ")");
+    }
 }
 
-public class Mugs
-{
-	Mug mug1;
+public class Mugs {
+    Mug mug1;
 
-	Mug mug2;
-	{
-		mug1 = new Mug(1);
-		mug2 = new Mug(2);
-		print("mug1 & mug2 initialized");
-	}
+    Mug mug2;
 
-	Mugs()
-	{
-		print("Mugs()");
-	}
+    {
+        mug1 = new Mug(1);
+        mug2 = new Mug(2);
+        print("mug1 & mug2 initialized");
+    }
 
-	Mugs(int i)
-	{
-		print("Mugs(int)");
-	}
+    Mugs() {
+        print("Mugs()");
+    }
 
-	public static void main(String[] args)
-	{
-		print("Inside main()");
-		new Mugs();
-		print("new Mugs() completed");
-		new Mugs(1);
-		print("new Mugs(1) completed");
-	}
+    Mugs(int i) {
+        print("Mugs(int)");
+    }
+
+    public static void main(String[] args) {
+        print("Inside main()");
+        new Mugs();
+        print("new Mugs() completed");
+        new Mugs(1);
+        print("new Mugs(1) completed");
+    }
 } /* Output:
  Inside main()
  Mug(1)

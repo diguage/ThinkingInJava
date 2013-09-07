@@ -2,50 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5feb7f-71ae-476f-bc94-7e9c3a227003" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ExplicitCriticalSection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/util/Print.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/MethodInit3.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/MethodInit3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Mugs.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Mugs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/NewVarArgs.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/NewVarArgs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/NoSynthesis.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/NoSynthesis.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OptionalTrailingArguments.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OptionalTrailingArguments.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OrderOfInitialization.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OrderOfInitialization.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Overloading.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Overloading.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingOrder.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs2.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs3.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/PassingThis.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/PassingThis.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/PrimitiveOverloading.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/PrimitiveOverloading.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleConstructor2.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleConstructor2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleEnumUse.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleEnumUse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spiciness.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spiciness.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spoon.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spoon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/StaticInitialization.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/StaticInitialization.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/TerminationCondition.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/TerminationCondition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarArgs.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarArgs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarargType.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarargType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\AtomicEvenGenerator.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/AtomicEvenGenerator.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\AtomicIntegerTest.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/AtomicIntegerTest.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\Atomicity.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/Atomicity.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\AtomicityTest.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/AtomicityTest.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\AttemptLocking.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/AttemptLocking.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\BasicThreads.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/BasicThreads.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\CachedThreadPool.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/CachedThreadPool.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\CallableDemo.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/CallableDemo.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\CaptureUncaughtException.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/CaptureUncaughtException.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\CriticalSection.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/CriticalSection.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\DaemonFromFactory.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/DaemonFromFactory.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\Daemons.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/Daemons.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\DaemonsDontRunFinally.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/DaemonsDontRunFinally.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\EvenChecker.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/EvenChecker.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\EvenGenerator.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/EvenGenerator.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\ExceptionThread.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ExceptionThread.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\FixedThreadPool.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/FixedThreadPool.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\IntGenerator.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/IntGenerator.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\Joining.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/Joining.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\LiftOff.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/LiftOff.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\MainThread.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MainThread.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\MoreBasicThreads.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MoreBasicThreads.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\MutexEvenGenerator.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MutexEvenGenerator.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\NaiveExceptionHandling.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/NaiveExceptionHandling.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\ResponsiveUI.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ResponsiveUI.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SelfManaged.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SelfManaged.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SerialNumberChecker.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SerialNumberChecker.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SerialNumberGenerator.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SerialNumberGenerator.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SettingDefaultHandler.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SettingDefaultHandler.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SimpleDaemons.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimpleDaemons.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SimplePriorities.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimplePriorities.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SimpleThread.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimpleThread.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SingleThreadExecutor.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SingleThreadExecutor.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SleepingTask.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SleepingTask.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\SynchronizedEvenGenerator.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SynchronizedEvenGenerator.java" />
-      <change type="MOVED" beforePath="H:\WorkSpace\ThinkingInJava\src\com\diguage\thinking\concurrency\ThreadVariations.java" afterPath="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ThreadVariations.java" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/LiftOff.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587737855" ignored="false" />
     <file path="/MainThread.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587788819" ignored="false" />
-    <file path="/Dummy.txt" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378458775929" ignored="false" />
+    <file path="/Dummy.txt" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378525710500" ignored="false" />
     <file path="/BasicThreads.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377587971953" ignored="false" />
     <file path="/MoreBasicThreads.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377588122763" ignored="false" />
     <file path="/CachedThreadPool.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1377588650200" ignored="false" />
@@ -88,6 +73,13 @@
     <file path="/AtomicEvenGenerator.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378202100050" ignored="false" />
     <file path="/CriticalSection.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378214021426" ignored="false" />
     <file path="/ExplicitCriticalSection.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378459969713" ignored="false" />
+    <file path="/ArrayClassObj.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378526238894" ignored="false" />
+    <file path="/Print.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378526226606" ignored="false" />
+    <file path="/ArrayNew.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378526298173" ignored="false" />
+    <file path="/Mugs.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378526586280" ignored="false" />
+    <file path="/OverloadingVarargs2.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378526701187" ignored="false" />
+    <file path="/PrimitiveOverloading.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378526758004" ignored="false" />
+    <file path="/StaticInitialization.java" changelist="4d5feb7f-71ae-476f-bc94-7e9c3a227003" time="1378526806119" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,31 +140,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SynchronizedEvenGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SynchronizedEvenGenerator.java">
+      <file leaf-file-name="OverloadingVarargs2.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+            <state line="12" column="35" selection-start="342" selection-end="342" vertical-scroll-proportion="0.44444445">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadVariations.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ThreadVariations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExplicitCriticalSection.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ExplicitCriticalSection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="51" selection-start="1178" selection-end="1178" vertical-scroll-proportion="1.0409356">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -196,22 +168,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MoreBasicThreads.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MutexEvenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/NaiveExceptionHandling.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ResponsiveUI.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SelfManaged.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SerialNumberChecker.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SerialNumberGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SettingDefaultHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimpleDaemons.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimplePriorities.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimpleThread.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SingleThreadExecutor.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SleepingTask.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SynchronizedEvenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ThreadVariations.java" />
-        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ExplicitCriticalSection.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OrderOfInitialization.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Overloading.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs3.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/PassingThis.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/PrimitiveOverloading.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleConstructor2.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleEnumUse.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spiciness.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spoon.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/StaticInitialization.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/TerminationCondition.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarArgs.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarargType.java" />
+        <option value="$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs2.java" />
       </list>
     </option>
   </component>
@@ -247,7 +219,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,26 +276,12 @@
               <option name="myItemId" value="diguage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemId" value="thinking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diguage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,12 +303,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
+              <option name="myItemId" value="thinking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SerialNumberChecker.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <option name="myItemId" value="initialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -372,135 +329,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
+              <option name="myItemId" value="thinking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ResponsiveUI.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diguage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Joining.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diguage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExplicitCriticalSection.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diguage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DaemonsDontRunFinally.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diguage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Daemons.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\WorkSpace\ThinkingInJava\src\com\diguage\books\thinking\initialization" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.ExplicitCriticalSection">
     <configuration default="false" name="SerialNumberChecker" type="Application" factoryName="Application" temporary="true">
@@ -627,19 +482,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -666,6 +508,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -825,12 +680,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Sonar" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -839,19 +695,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.62352943" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3764706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3764706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -940,117 +795,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/NaiveExceptionHandling.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.084870845">
+        <state line="5" column="40" selection-start="187" selection-end="187" vertical-scroll-proportion="0.15469614">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MutexEvenGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Overloading.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+        <state line="8" column="24" selection-start="230" selection-end="230" vertical-scroll-proportion="0.31698114">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MoreBasicThreads.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OrderOfInitialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+        <state line="5" column="40" selection-start="178" selection-end="178" vertical-scroll-proportion="0.18518518">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/MainThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OptionalTrailingArguments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+        <state line="6" column="27" selection-start="281" selection-end="281" vertical-scroll-proportion="0.22222222">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/LiftOff.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/NoSynthesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.33392227">
+        <state line="9" column="1" selection-start="158" selection-end="158" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SerialNumberGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/NewVarArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+        <state line="7" column="27" selection-start="274" selection-end="274" vertical-scroll-proportion="0.26534295">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimpleDaemons.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarargType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+        <state line="20" column="25" selection-start="562" selection-end="562" vertical-scroll-proportion="0.39306358">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SettingDefaultHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/VarArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+        <state line="8" column="43" selection-start="220" selection-end="220" vertical-scroll-proportion="0.08867925">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SerialNumberChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/TerminationCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="25" selection-start="907" selection-end="907" vertical-scroll-proportion="0.11130742">
+        <state line="9" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2320442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimplePriorities.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/StaticInitialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+        <state line="5" column="18" selection-start="169" selection-end="169" vertical-scroll-proportion="0.19337016">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SimpleThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spoon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+        <state line="9" column="7" selection-start="164" selection-end="164" vertical-scroll-proportion="0.3480663">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SleepingTask.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/Spiciness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.22222222">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SingleThreadExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleEnumUse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.4074074">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/SynchronizedEvenGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/SimpleConstructor2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+        <state line="11" column="25" selection-start="277" selection-end="277" vertical-scroll-proportion="0.4074074">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ThreadVariations.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/PrimitiveOverloading.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+        <state line="4" column="24" selection-start="166" selection-end="166" vertical-scroll-proportion="-2.9801445">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/concurrency/ExplicitCriticalSection.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diguage/books/thinking/initialization/OverloadingVarargs2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="51" selection-start="1178" selection-end="1178" vertical-scroll-proportion="1.0409356">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="35" selection-start="342" selection-end="342" vertical-scroll-proportion="0.44444445">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@ package com.diguage.books.thinking.initialization;
 
 // : initialization/PrimitiveOverloading.java
 // Promotion of primitives and overloading.
-import static net.mindview.util.Print.*;
+import static com.diguage.books.thinking.util.Print.*;
 
 public class PrimitiveOverloading {
   void f1(char x) { printnb("f1(char) "); }
