@@ -93,6 +93,7 @@ class DelayedTaskConsumer implements Runnable {
                 q.take().run();
             }
         } catch (InterruptedException e) {
+            // Acceptable way to exit
         }
         System.out.println("Finished DelayedTaskConsumer ");
     }
