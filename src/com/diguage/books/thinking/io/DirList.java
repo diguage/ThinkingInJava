@@ -2,6 +2,7 @@ package com.diguage.books.thinking.io;
 
 import java.io.File;
 import java.io.FilenameFilter;
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
 /**
@@ -20,6 +21,7 @@ public class DirList {
         } else {
             list = path.list(new DirFilter(args[0]));
         }
+        Arrays.sort(list, String.CASE_INSENSITIVE_ORDER);
         for (String dirItem : list) {
             System.out.println(dirItem);
         }
