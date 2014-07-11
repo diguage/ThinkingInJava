@@ -24,7 +24,6 @@ public class BufferedInputFile {
     }
 
     public static void main(String[] args) throws IOException {
-        String filename = "/Users/diguage/develop/ruby/projects/Vagrantfile";
-        System.out.println(read(filename));
+        System.out.println(read(Resource.FILE_NAME));
     }
 }

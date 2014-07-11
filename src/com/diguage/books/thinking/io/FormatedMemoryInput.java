@@ -15,11 +15,9 @@ import java.io.IOException;
 public class FormatedMemoryInput {
     public static void main(String[] args) throws IOException {
         try {
-            String filename = "/Users/diguage/develop/ruby/projects/Vagrantfile";
-
             DataInputStream in = new DataInputStream(
                     new ByteArrayInputStream(
-                            BufferedInputFile.read(filename).getBytes())
+                            BufferedInputFile.read(Resource.FILE_NAME).getBytes())
             );
             while (true) {
                 System.out.println((char) in.readByte());

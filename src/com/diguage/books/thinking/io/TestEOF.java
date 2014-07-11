@@ -14,10 +14,9 @@ import java.io.IOException;
  */
 public class TestEOF {
     public static void main(String[] args) throws IOException {
-        String filename = "/Users/diguage/develop/ruby/projects/Vagrantfile";
         DataInputStream dis = new DataInputStream(
                 new BufferedInputStream(
-                        new FileInputStream(filename))
+                        new FileInputStream(Resource.FILE_NAME))
         );
 
         while (dis.available() != 0) {

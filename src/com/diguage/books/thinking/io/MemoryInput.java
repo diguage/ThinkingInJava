@@ -12,8 +12,7 @@ import java.io.StringReader;
  */
 public class MemoryInput {
     public static void main(String[] args) throws IOException {
-        String filename = "/Users/diguage/develop/ruby/projects/Vagrantfile";
-        StringReader reader = new StringReader(BufferedInputFile.read(filename));
+        StringReader reader = new StringReader(BufferedInputFile.read(Resource.FILE_NAME));
         int c = 0;
         while ((c = reader.read()) != -1) {
             System.out.println((char) c);
