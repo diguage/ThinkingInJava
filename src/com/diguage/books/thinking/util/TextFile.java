@@ -1,4 +1,4 @@
-package com.diguage.util;
+package com.diguage.books.thinking.util;
 
 import com.diguage.books.thinking.io.Resource;
 
