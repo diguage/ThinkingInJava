@@ -37,6 +37,8 @@ public class BufferToText {
 
         fc = new FileOutputStream(fileName).getChannel();
         fc.write(ByteBuffer.wrap("Hello, D瓜哥".getBytes("UTF-16BE")));
+        fc.position(fc.size() - 2);
+        fc.write(ByteBuffer.wrap("Hello, D瓜哥".getBytes("UTF-16BE")));
         fc.close();
 
         fc = new FileInputStream(fileName).getChannel();
