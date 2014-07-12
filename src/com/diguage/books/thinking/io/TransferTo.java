@@ -21,5 +21,7 @@ public class TransferTo {
         FileChannel out = new FileOutputStream(targetFileName).getChannel();
 
         in.transferTo(0, in.size(), out);
+        // Or:
+        // out.transferFrom(in, 0, in.size());
     }
 }
