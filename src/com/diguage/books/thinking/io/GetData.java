@@ -3,6 +3,7 @@ package com.diguage.books.thinking.io;
 import java.nio.ByteBuffer;
 
 /**
+ * 从ByteBuffer中存取各种基本类型数据。
  * <p/>
  * Coder：D瓜哥，http://www.diguage.com/
  * <p/>
