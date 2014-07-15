@@ -1,7 +1,5 @@
 package com.diguage.books.thinking.io;
 
-import net.mindview.util.CountingGenerator;
-
 import java.nio.*;
 
 /**
