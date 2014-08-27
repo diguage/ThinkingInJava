@@ -1,5 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.diguage.books</groupId>
@@ -9,6 +12,7 @@
     <name>D瓜哥：ThinkingInJava</name>
 
     <properties>
+        <javassist.version>3.13.0.GA</javassist.version>
         <!--解决File encoding has not been set, using platform encoding 的问题-->
         <!--https://stackoverflow.com/questions/3017695/how-to-configure-encoding-in-maven-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,7 +26,7 @@
         <dependency>
             <groupId>javassist</groupId>
             <artifactId>javassist</artifactId>
-            <version>3.13.0.GA</version>
+            <version>${javassist.version}</version>
         </dependency>
     </dependencies>
 
